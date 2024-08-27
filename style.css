@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /*altura*/
+    background-color: #b5a7dd;
+    line-height: 2;
+}
+
+.listaFruta{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/*#conteinerQuadrado{
+    width: 150px;
+    height: 33px;
+    background-color: #aca5d3;
+    border: 6px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: 0 auto;
+}*/
+
+input,button{
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+input{
+    border-radius: 5px;
+    border-color: #372861;
+}
+
+button{
+    border-radius: 5px;
+    border-color: #372861;
+}
+p{
+    font-size: 18px;
+    color: black;
+}
+
+button:hover{
+    background-color: #b285b1; 
+}
+
+#fruta{
+    margin-bottom: 20px;
+}
+
